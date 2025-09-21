@@ -177,3 +177,5 @@ yarl==1.20.1
 zipp==3.23.0
 plotly
 zstandard==0.25.0
+google-generativeai
+
