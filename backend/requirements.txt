@@ -1,4 +1,3 @@
-
 Flask
 Streamlit
 PyMuPDF
@@ -17,3 +16,6 @@ langchain-community
 scikit-learn
 transformers
 sentence-transformers
+plotly
+google-generativeai
+
