@@ -1,4 +1,3 @@
-
 import os
 import sys
 import json
@@ -9,11 +8,11 @@ from flask import Flask, jsonify, request
 # Add the parent directory to sys.path to allow absolute imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from backend.parser import parse_resume, parse_job_description # type: ignore # Import both functions
-from backend.matcher import match_resume_to_jd # type: ignore # Import the matching function
-from backend.semantic_matcher import calculate_semantic_fit_score # type: ignore # Import the semantic matching function
-from backend.llm_analyzer import analyze_match, generate_feedback # type: ignore # Import both LLM functions
-from backend.aggregator import aggregate_scores # type: ignore # Import the aggregation function
+from backend.parser import parse_resume, parse_job_description # Import both functions
+from backend.matcher import match_resume_to_jd # Import the matching function
+from backend.semantic_matcher import calculate_semantic_fit_score # Import the semantic matching function
+from backend.llm_analyzer import analyze_match, generate_feedback # Import both LLM functions
+from backend.aggregator import aggregate_scores # Import the aggregation function
 from backend.database.database import init_db, SessionLocal # Import database initialization and session
 from backend.database.models import Resume, JobDescription, EvaluationResult, ImprovementSuggestion, AuditTrail # Import models
 
