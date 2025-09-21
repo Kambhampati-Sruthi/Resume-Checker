@@ -1,3 +1,14 @@
+streamlit
+pandas
+numpy
+plotly
+google-generativeai
+PyPDF2
+pdfplumber
+PyMuPDF
+python-docx
+docx2txt
+textract
 aiohappyeyeballs==2.6.1
 aiohttp==3.12.15
 aiosignal==1.4.0
@@ -178,4 +189,5 @@ zipp==3.23.0
 plotly
 zstandard==0.25.0
 google-generativeai
+
 
